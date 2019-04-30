@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pitch Predicter</title>
+    <script type="text/javascript" src="test.js"></script>
 </head>
-<body><script src="test.js"></script></body>
+<body>
+    <h1>Pitch Predicter</h1>
+    <p1>Select the starting pitcher</p1>
+        <select name="pitchers" id="pitcher">
+            <option value="hamels">Hamels</option>
+            <option value="quintana">Quintana</option>
+            <option value="lester">Lester</option>
+            <option value="hendrix">Hendrix</option>
+            <option value="darvish">Darvish</option>
+        </select>
+        <button onchange="predictHamels();" >Go</button>
+        </body>    
 </html>
